@@ -1,6 +1,9 @@
 # After clone
 ```zsh
 rm -rf .git && git init && npm install
+
+// If you want to config pre-commit for checking eslint
+cp ./resource/hooks/* ./.git/hooks/
 ```
 
 # Execution
