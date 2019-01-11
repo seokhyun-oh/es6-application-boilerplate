@@ -1,7 +1,9 @@
 import * as mocha from 'mocha';
 import chai from 'chai';
 
-const { assert } = chai;
+const { assert, should } = chai;
+
+console.log(should);
 
 mocha.describe('test', () => {
   mocha.it('should be ok', () => {

@@ -1,3 +1,3 @@
 import message from './hello';
 
-console.log(`${message} world!`);
+console.log(`${message} world`);
